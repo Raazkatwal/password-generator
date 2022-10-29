@@ -10,5 +10,4 @@ This is a simple Password Generator. It has the functionality to choose the leng
 - JS
 
 ### Image Preview
-
- file:///home/raaz/Downloads/127.0.0.1_5500__.png
+![password-generator](https://user-images.githubusercontent.com/90101357/198819165-3481ab40-c244-49b7-b682-276d01308389.png)
