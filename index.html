@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="icon" href="img/logo.png">
+    <script src="https://kit.fontawesome.com/a3c06e4acc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+ <div class="container">
+    <div class="wrapper">
+        <h1 class="heading">
+            Password Generator
+        </h1>
+        <div class="result">
+            <input type="text" class="text-output" readonly>
+            <button class="copy-btn" onclick="copy_btn_click()">
+                <i class="fa-solid fa-copy copy-icon"></i>
+            </button>
+        </div>
+        <div class="settings-section">
+            <div class="char-len-section">
+                <h2 class="heading">
+                    Character Length
+                </h2>
+                <span class="slider-value">10</span>
+            </div>
+            <div class="form">
+                <input type="range" name="" id="password-length-slider" min="4" max="20" value = "10">
+                <div>
+                    <input type="checkbox" id="box" class="include-uppercase">
+                    <label for="box" class="form-label">Include Uppercase Letters</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="box" class="include-numbers">
+                    <label for="box" class="form-label">Include Numbers</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="box" class="include-symbols">
+                    <label for="box" class="form-label">Include Symbols</label>
+                </div>
+                <button class="generate-btn" onclick="generate_btn_clicked()">Generate </button>
+                <h2 class="heading">© Made by Raaz Katwal</h2>
+            </div>
+        </div>
+    </div>
+</div>   
+</body>
+</html>
