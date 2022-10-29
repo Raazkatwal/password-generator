@@ -101,3 +101,27 @@ input[type=checkbox]{
     color: var(--accent-color);
     border: .1rem solid var(--accent-color);
 }
+@media screen and (max-width:1000px) {
+    .generate-btn:hover{
+        background-color: var(--accent-color);
+        color: black;
+        border: none;
+    }
+}
+@media screen and (max-width:470px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width:375px) {
+    .wrapper{
+        width: 38rem;
+    }
+}@media screen and (max-width:320px) {
+    html{
+        font-size: 40%;
+    }
+    .wrapper{
+        width: 40rem;
+    }
+}
